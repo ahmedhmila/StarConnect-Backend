@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_configs",
+  "info": {
+    "singularName": "global-config",
+    "pluralName": "global-configs",
+    "displayName": "Global Config"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "isCrisisMode": {
+      "type": "boolean",
+      "default": false
+    },
+    "crisisTitle": {
+      "type": "string"
+    },
+    "crisisMessage": {
+      "type": "blocks"
+    },
+    "officialPDF": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
