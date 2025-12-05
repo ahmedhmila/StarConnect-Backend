@@ -10,7 +10,7 @@
     "develop": "strapi develop",
     "start": "mkdir -p public/uploads && node node_modules/@strapi/strapi/bin/strapi.js start",
     "build": "node node_modules/@strapi/strapi/bin/strapi.js build",
-    "strapi": "strapi"
+    "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
